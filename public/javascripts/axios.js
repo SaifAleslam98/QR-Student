@@ -1,5 +1,6 @@
 const base_url = 'https://qr-api-lcgr.onrender.com'
-//http://localhost:3000'
+//const base_url = 'http://localhost:2000'
+
 
 
 //axios.defaults.timeout = 5000;

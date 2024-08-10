@@ -52,7 +52,7 @@ $('#save-student').on('click', async function () {
         const response = await sendPostRequest(`student`, myBody);
         if (response) {
             alertMsg(response.message, 'success');
-            $('#subject').val('');
+            $('#student').val('');
         }
     } catch (error) {
         handleError(error);
