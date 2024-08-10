@@ -1,6 +1,6 @@
-const base_url = 'http://localhost:2000'
+const base_url = 'https://qr-api-lcgr.onrender.com'
 //http://localhost:3000'
-//https://quizzy-api-d4iw.onrender.com
+
 
 //axios.defaults.timeout = 5000;
 function newAbortSignal(timeoutMs) {
